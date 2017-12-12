@@ -233,6 +233,7 @@ def problem0b(n):
     # ------------------------------------------------------------------
 
 
+
 def run_test_problem0c():
     """ Tests the   problem0c  function. """
     print()
@@ -299,6 +300,9 @@ def problem0c(circle, n, window):
     ####################################################################
     # ------------------------------------------------------------------
 
+    for k in range(n):
+        circle.attach_to(window)
+    window.render()
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
